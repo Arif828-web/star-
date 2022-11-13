@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:aqua; 
+}
+#wowslider-container1{
+overflow:hidden;
+}
+
+.yt{
+    font-size:40px;
+    text-transform:capitalize;
+    color:red;
+    text-shadow:2px 3px green;
+}
+.jh{
+    color:blue;
+    font-size:2rem;
+    text-shadow:3px 2px red;
+}
+nav{
+    float:right;
+    background-color:yellow;
+    width:100%;
+position:sticky;
+top:0px;
+bottom:0px;
+z-index:1;
+    
+}
+nav ul li{
+    display:inline;
+    margin:0px 30px;
+    font-size:30px;
+    text-transform:capitalize;
+    justify-content:space-between;
+}
+nav ul li a{
+    text-decoration:none;
+}
+.contener{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,300px);
+    margin-left:30px;
+    grid-gap:5px;
+}
+.grid{
+    height:400px;
+    overflow:hidden;
+    position:relative;
+border:5px solid red;
+    
+}
+.first{
+    background-image:url("img/first.jpg");
+    background-size:100% 100%;
+    border-radius:9px;
+    background-repeat:no-repeat;
+}
+.gh{
+    position:absolute;
+    font-size:20px;
+    right:0;
+    bottom:0;
+    left:0;
+    color:red;
+    
+}
+.second{
+    background-image:url("img/second1.jpg");
+    background-size:100% 100%;
+    border-radius:9px;
+}
+.three{
+    background-image:url("img/three.jpg");
+    background-size:100% 100%;
+    border-radius:9px;
+}
+.four{
+    background-image:url("img/four.jpg");
+    background-size:100% 100%;
+    border-radius:9px;
+    background-repeat:no-repeat;
+}
+.five{
+    background-image:url("img/five.jpg");
+    background-size:100% 100%;
+    border-radius:9px;
+}
+.six{
+   background-image:url("img/six.jpg");
+    background-size:100% 100%;
+    border-radius:9px;
+}
+.seven{
+     background-image:url("img/seven.jpg");
+    background-size:100% 100%;
+    border-radius:9px;
+}
+.eight{
+    background-image:url("img/eight.png");
+    background-size:100% 100%;
+    border-radius:9px;
+}
+.nine{
+     background-image:url("img/nine.png");
+    background-size:100% 100%;
+    border-radius:9px;
+}
+.eleven{
+    background-image:url("img/eleven.png");
+    background-size:100% 100%;
+    border-radius:9px;
+
+}
+.mi2{
+     background-image:url("img/mi2.png");
+    background-size:100% 100%;
+    border-radius:9px;
+}
+.new{
+    background-image:url("img/new.png");
+    background-size:100% 100%;
+    border-radius:9px;
+}
+.orimo{
+    background-image:url("img/orimo.png");
+    background-size:100% 100%;
+    border-radius:9px;
+}
+.blwth{
+     background-image:url("img/blwth.png");
+    background-size:100% 100%;
+    border-radius:9px;
+}
+.qmobile{
+    background-image:url("img/Qmobile.jpg");
+    background-size:100% 100%;
+    border-radius:9px;
+    background-color: 
+}
